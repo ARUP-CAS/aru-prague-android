@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Archeologie</string>
+    <string name="open_location">mehr erfahren</string>
+    <string name="in_artistic_cooperation_with">bildkünstlerische Mitarbeit</string>
+    <string name="navigate">Navigation starten</string>
+    <string name="in_cooperation_with">wissenschaftliche Mitarbeit</string>
+    <string name="acknowledgements">Danksagung</string>
+    <string name="author">AutorIn</string>
+    <string name="show_on_web">im Web anschauen</string>
+    <string name="credits">Impressum</string>
+    <string name="start_guide">Rundgang starten</string>
+    <string name="search">suchen…</string>
+    <string name="exitPrompt">Zum Beenden erneut drücken</string>
+</resources>

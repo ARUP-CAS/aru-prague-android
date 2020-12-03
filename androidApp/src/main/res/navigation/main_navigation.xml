@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mapFragment">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="cz.visualio.archeologie.androidApp.fragments.MapFragment"
+        android:label="MapFragment" >
+        <action
+            android:id="@+id/action_mapFragment_to_loactionMapFragment"
+            app:destination="@id/loactionMapFragment" />
+        <action
+            android:id="@+id/action_mapFragment_to_creditsFragment"
+            app:destination="@id/creditsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carouselFragment"
+        android:name="cz.visualio.archeologie.androidApp.fragments.CarouselFragment"
+        android:label="fragment_carousel"
+        tools:layout="@layout/fragment_carousel" >
+        <argument
+            android:name="location"
+            app:argType="cz.visualio.archeologie.androidApp.parcelers.LocationParcelable" />
+    </fragment>
+    <fragment
+        android:id="@+id/creditsFragment"
+        android:name="cz.visualio.archeologie.androidApp.fragments.CreditsFragment"
+        android:label="fragment_credits"
+        tools:layout="@layout/fragment_credits" >
+        <argument
+            android:name="thematic"
+            app:argType="cz.visualio.archeologie.androidApp.parcelers.ThematicParcelable" />
+    </fragment>
+    <fragment
+        android:id="@+id/loactionMapFragment"
+        android:name="cz.visualio.archeologie.androidApp.fragments.LocationMapFragment"
+        android:label="fragment_loaction_map"
+        tools:layout="@layout/fragment_loaction_map" >
+        <action
+            android:id="@+id/action_loactionMapFragment_to_carouselFragment"
+            app:destination="@id/carouselFragment" />
+        <argument
+            android:name="thematic"
+            app:argType="cz.visualio.archeologie.androidApp.parcelers.ThematicParcelable" />
+    </fragment>
+</navigation>
+
+
