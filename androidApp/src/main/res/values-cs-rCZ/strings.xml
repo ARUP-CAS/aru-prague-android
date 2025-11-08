@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="author">Autor</string>
+    <string name="in_cooperation_with">Ve spolupráci s</string>
+    <string name="in_artistic_cooperation_with">V umělecké spolupráci s</string>
+    <string name="acknowledgements">Poděkování</string>
+    <string name="open_location">Zobrazit detail</string>
+    <string name="navigate">Navigovat</string>
+    <string name="show_on_web">Zobrazit na webu</string>
+    <string name="start_guide">Začít vycházku</string>
+    <string name="credits">O tvůrcích</string>
+    <string name="app_name">Archeologie</string>
+    <string name="search">Hledat…</string>
+    <string name="exitPrompt">Opětovným stisknutím ukončíte</string>
+</resources>
