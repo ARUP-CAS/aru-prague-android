@@ -95,26 +95,34 @@
                 tools:text="test" />
 
             <ImageView
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
                 android:id="@+id/logo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
                 android:id="@+id/logo2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
                 android:id="@+id/logo3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="64dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginLeft="64dp"
+                android:layout_marginRight="64dp"
+                android:layout_marginBottom="128dp"
                 android:id="@+id/logo4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
