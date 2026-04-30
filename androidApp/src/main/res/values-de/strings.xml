@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Archeologie</string>
+    <string name="app_name">Sauersack</string>
     <string name="open_location">mehr erfahren</string>
     <string name="in_artistic_cooperation_with">bildkünstlerische Mitarbeit</string>
     <string name="navigate">Navigation starten</string>
@@ -12,4 +12,20 @@
     <string name="start_guide">Rundgang starten</string>
     <string name="search">suchen…</string>
     <string name="exitPrompt">Zum Beenden erneut drücken</string>
+
+    <string name="splash_title">Liebe Besucher,</string>
+    <string name="splash_description">herzlich willkommen in der niedergegangenen Rolava, einem Gebiet, das aufgrund seines natürlichen und kulturhistorischen Werts äußerst wertvoll ist. Bitte beachten Sie bei Ihrem Besuch folgende Regeln:</string>
+
+    <string name="splash_text_icon1">Verlassen Sie nicht die markierten Wege</string>
+    <string name="splash_text_icon2">Betreten Sie keine Gebäuderuinen</string>
+    <string name="splash_text_icon3">Machen Sie keinen unnötigen Lärm</string>
+    <string name="splash_text_icon4">Pflücken Sie keine Blumen und zerstören Sie keine Flora</string>
+    <string name="splash_text_icon5">Werfen Sie keinen Müll weg</string>
+    <string name="splash_text_icon6">Entfernen Sie keine Artefakte, verwenden Sie keinen Metalldetektor</string>
+
+    <string name="splash_title_end">Wir wünschen Ihnen ein spannendes Besuchererlebnis!</string>
+
+    <string name="roaming_text">Der Preis für Datenroaming in der EU\nist derselbe wie in der\nTschechischen Republik.</string>
+    <string name="roaming_text2">Damit die App richtig funktionierte,\nsollte der Datenroaming aktiviert\nwerden.</string>
+
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".fragments.CarouselItemImageFragment">
 
-    <ImageView
+    <com.ortiz.touchview.TouchImageView
         android:id="@+id/imageView2"
 
         android:layout_width="match_parent"
@@ -19,7 +19,7 @@
         android:id="@id/bottomSheet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:behavior_peekHeight="50dp"
+        app:behavior_peekHeight="120dp"
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
         >
 
@@ -41,14 +41,15 @@
 
             <TextView
                 android:id="@+id/textView"
-                android:autoLink="web"
+                style="@android:style/TextAppearance.DeviceDefault.Small"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginBottom="32dp"
-                style="@android:style/TextAppearance.DeviceDefault.Small"
+                android:layout_marginBottom="48dp"
+                android:autoLink="web"
+                android:textColorLink="#333333"
                 android:textColor="#333333"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

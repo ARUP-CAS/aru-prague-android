@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "244940264145",
+    "project_id": "sauersack",
+    "storage_bucket": "sauersack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244940264145:android:faef2808c2b3cfc95cebf0",
+        "android_client_info": {
+          "package_name": "cz.visualio.sauersack.androidApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244940264145-s8ls06iumj42pvg15id9o9sff6iguukh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cz.visualio.sauersack.androidApp",
+            "certificate_hash": "dac87a903e23328745e83d38505a00e8455daab8"
+          }
+        },
+        {
+          "client_id": "244940264145-1pfo0090lel1i4qmfp2cq684pflieid6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_GOOGLE_MAPS_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244940264145-1pfo0090lel1i4qmfp2cq684pflieid6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
