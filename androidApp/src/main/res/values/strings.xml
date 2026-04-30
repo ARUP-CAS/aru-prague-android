@@ -8,7 +8,24 @@
     <string name="show_on_web">Show on web</string>
     <string name="start_guide">Start guide</string>
     <string name="credits">Credits</string>
-    <string name="app_name">Archeologie</string>
+    <string name="app_name">Sauersack</string>
     <string name="search">Search…</string>
     <string name="exitPrompt">Press again to exit</string>
+
+    <string name="splash_title">Dear visitors,</string>
+    <string name="splash_description">welcome to the deserted Rolava, an area that is extremely valuable for its natural and cultural-historical heritage. Please, follow the general rules during your visit:</string>
+
+    <string name="splash_text_icon1">Do not leave the marked trails</string>
+    <string name="splash_text_icon2">Do not climb the ruins of buildings</string>
+    <string name="splash_text_icon3">Do not make unnecessary noise</string>
+    <string name="splash_text_icon4">Do not pick flowers or destroy flora</string>
+    <string name="splash_text_icon5">Do not throw away any rubbish</string>
+    <string name="splash_text_icon6">Do not remove any artifacts, especially do not use a metal detector</string>
+
+    <string name="splash_title_end">We wish you a pleasant experience!</string>
+
+    <string name="roaming_text">The price of data roaming in the EU\nis the same as in the Czech\nRepublic.</string>
+
+    <string name="roaming_text2">You need to have roaming turned on\nfor the optimal work of the app.</string>
+
 </resources>

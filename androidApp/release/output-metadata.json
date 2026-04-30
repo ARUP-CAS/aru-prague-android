@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "cz.visualio.sauersack.androidApp",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 25,
+      "versionName": "2.5",
+      "outputFile": "androidApp-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

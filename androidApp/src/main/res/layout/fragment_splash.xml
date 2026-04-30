@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_sauersack" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/splash_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            style="@style/TextViewSplash"
+            android:text="@string/splash_title"
+            app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            style="@style/TextViewSplash"
+            android:layout_height="wrap_content"
+            android:text="@string/splash_description"
+            app:layout_constraintEnd_toEndOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_title" />
+
+        <ImageView
+            android:id="@+id/splash_icon_1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_j_hasil_page_01"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/description" />
+
+
+        <TextView
+            style="@style/TextViewSplash"
+            android:id="@+id/splash_icon_description_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/splash_text_icon1"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_1"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_1"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_1" />
+
+
+        <ImageView
+            android:id="@+id/splash_icon_2"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_j_hasil_page_04"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_1" />
+
+
+        <TextView
+            android:id="@+id/splash_icon_description_2"
+            android:layout_width="0dp"
+            style="@style/TextViewSplash"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/splash_text_icon2"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_2"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_2"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_2" />
+
+        <ImageView
+            android:id="@+id/splash_icon_3"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_j_hasil_page_06"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_2" />
+
+
+        <TextView
+            android:id="@+id/splash_icon_description_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            style="@style/TextViewSplash"
+            android:paddingRight="8dp"
+            android:text="@string/splash_text_icon3"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_3"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_3"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_3" />
+
+
+        <ImageView
+            android:id="@+id/splash_icon_4"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ikony_j_hasil_page_07"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_3" />
+
+
+        <TextView
+            android:id="@+id/splash_icon_description_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            style="@style/TextViewSplash"
+            android:paddingRight="8dp"
+            android:text="@string/splash_text_icon4"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_4"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_4"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_4" />
+
+
+        <ImageView
+            android:id="@+id/splash_icon_5"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_j_hasil_page_02"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_4" />
+
+
+        <TextView
+            android:id="@+id/splash_icon_description_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            style="@style/TextViewSplash"
+            android:text="@string/splash_text_icon5"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_5"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_5"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_5" />
+
+        <ImageView
+            android:id="@+id/splash_icon_6"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ikony_j_hasil_page_10"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_5" />
+
+
+        <TextView
+            android:id="@+id/splash_icon_description_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            style="@style/TextViewSplash"
+            android:paddingRight="8dp"
+            android:text="@string/splash_text_icon6"
+            app:layout_constraintBottom_toBottomOf="@+id/splash_icon_6"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toEndOf="@id/splash_icon_6"
+            app:layout_constraintTop_toTopOf="@+id/splash_icon_6" />
+
+
+        <TextView
+            android:id="@+id/text_end"
+            style="@style/TextViewSplash"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="@string/splash_title_end"
+            app:layout_constraintEnd_toEndOf="@id/guidelineEnd"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/splash_icon_6"
+
+            />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/rounded_corner"
+            android:text="START"
+            android:layout_marginBottom="12dp"
+            android:textColor="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
+            app:layout_constraintStart_toStartOf="@id/guidelineStart"
+            app:layout_constraintTop_toBottomOf="@+id/text_end" />
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.03" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.97" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

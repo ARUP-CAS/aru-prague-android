@@ -9,7 +9,24 @@
     <string name="show_on_web">Zobrazit na webu</string>
     <string name="start_guide">Začít vycházku</string>
     <string name="credits">O tvůrcích</string>
-    <string name="app_name">Archeologie</string>
+    <string name="app_name">Sauersack</string>
     <string name="search">Hledat…</string>
     <string name="exitPrompt">Opětovným stisknutím ukončíte</string>
+
+    <string name="splash_title">Vážení návštěvníci,</string>
+    <string name="splash_description">vítejte na zaniklé Rolavě, v území, které je mimořádně cenné pro svou přírodní i kulturně-historickou hodnotu. Během své návštěvy dodržujte, prosím, následující pravidla:</string>
+
+    <string name="splash_text_icon1">Neopouštějte vyznačené stezky</string>
+    <string name="splash_text_icon2">Nevstupujte na ruiny staveb</string>
+    <string name="splash_text_icon3">Nezpůsobujte zbytečný hluk</string>
+    <string name="splash_text_icon4">Netrhejte květiny a neničte flóru</string>
+    <string name="splash_text_icon5">Neodhazujte žádné odpadky</string>
+    <string name="splash_text_icon6">Neodnášejte žádné artefakty, zejména nepoužívejte detektor kovů</string>
+
+    <string name="splash_title_end">Přejeme Vám příjemný návštěvnický zážitek!</string>
+
+    <string name="roaming_text">Cena datového roamingu je\nv EU je stejná jako v ČR.</string>
+
+    <string name="roaming_text2">Pro správné fungování aplikace je\ntřeba mít roaming zapnutý.</string>
+
 </resources>
