@@ -17,3 +17,9 @@ local.properties
 /iosApp/build/
 /shared/build/
 *.hprof
+
+# Sensitive files — never commit
+keystore.properties
+*.jks
+*.p12
+google-services.json
